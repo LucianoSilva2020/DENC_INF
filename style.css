@@ -1,0 +1,56 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+header {
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav>li {
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 50px;
+    color: rgb(103, 234, 232);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(103, 234, 232);
+}
+
+.divh1 {
+    background-color: rgba(0, 255, 255, 0.09);
+    width: 280px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 400px;
+}
