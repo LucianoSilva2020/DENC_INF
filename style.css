@@ -54,3 +54,49 @@ nav>li {
     margin-left: 50px;
     margin-top: 400px;
 }
+
+.h1section {
+    text-align: center;
+}
+.img {
+    height: 60%;
+    width: 70%;
+}
+
+.divimg {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+h3 {
+    margin-left: 12px;
+}
+p {
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 740px) {
+    .divsecttion {
+      display: flex;
+    }
+  }
+
+  .section2 {
+    background-color: rgba(127, 255, 212, 0.301);
+  }
+
+  .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+  }
+
+  footer {
+        background-color: rgba(69, 67, 71, 0.46);
+        height: auto;
+        width: auto;
+        font-family: cursive;
+        padding-top: 40px;
+  }
