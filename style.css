@@ -100,3 +100,29 @@ p {
         font-family: cursive;
         padding-top: 40px;
   }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+ul>li>a {
+    text-decoration: none;
+    margin: 0 14px;
+}
+
+li {
+    color: black;
+    margin: 6px;
+}
+
+.pfooter {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.h1footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
